@@ -1,15 +1,15 @@
 debug: debug                          #开发者模式
-httpRequestPort: :8089               #HTTP请求端口
-appSecret : ssc
-sessionName : shangce_sesssion
+httpRequestPort: :8089                #HTTP请求端口
+appSecret :
+sessionName :
 databases:
-  type: mysql                        #数据库类型
-  hostName: 192.168.199.231          #服务器地址
-  port: 3306                         #数据库端口
-  userName: root                     #用户名
-  dbName: abs_db_20190117            #数据库名
-  password: 123456                   #密码
-  prefix: ssc_                       #数据库表前缀
+  type: mysql                         #数据库类型
+  hostName:                           #服务器地址
+  port:                               #数据库端口
+  userName:                           #用户名
+  dbName:                             #数据库名
+  password:                           #密码
+  prefix:                             #数据库表前缀
 cache:
   type: redis
   port: 6379
